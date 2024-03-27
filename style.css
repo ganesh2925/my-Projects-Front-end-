@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: serif;
+}
+header{
+    background-color: rgba(132, 211, 211, 0.868);
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+}
+h1.headerh1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+p.headerp {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+}
+p.paragraph {
+    font-size: 20px;
+}
+a{
+    text-decoration-line: none;
+}
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 10px;
+    display: inline;
+}
+ul li a:hover {
+    color: #c6300e;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 4px 4px 6px #000000;
+}
+img.image {
+    height: 400px;
+    width: 700px;
+}
+.left {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    margin-top: 50px;
+    /* height: 600px; */
+}
+.main {
+    float: left;
+    width: 82%;
+    height: 600px;
+}
+img.image-ceo {
+    float: right;
+    max-width:250px;
+    /* max-height:200px; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* #ceo-pragraph {
+    width: 70%;
+} */
+.clearfix {
+    overflow: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+th,td {
+    text-align:center;
+    padding: 8px;
+    border: 2px solid black;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 24px;
+    padding: 15px;
+    margin: 20px;
+}
+a:hover {
+    color: #f3190d;
+    font-size: 30px;
+    text-shadow: 4px 4px 6px #000000;
+}
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+form {
+    width: 40%;
+    background-color: rgba(132, 211, 211, 0.868);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+form.form-group,input,textarea {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    display: inline-block;
+    width: 90%;
+    margin-right: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.buttons {
+    text-align: center;
+
+}
+
+.submit {
+    padding: 10px;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(231, 94, 63, 0.868);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: rgba(63, 231, 69, 0.868);
+    color: black;
+    font-size: 25px;
+    border-radius: 10px; 
+}
+.reset {
+    padding: 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(231, 94, 63, 0.868);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.reset:hover {
+    background-color: rgba(63, 231, 69, 0.868);
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.videoButtons {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.videoButtons:hover {
+    background-color: rgba(63, 231, 69, 0.868);
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.right {
+    width: 100%;
+    /* background-color:rgb(235, 232, 197); */
+    padding: 10px;
+}
+.rightP {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.righth3 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.footer {
+    background-color:#eaedd7;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:18px;
+}
+.aside {
+    font-size: 1.2vw;
+    /* background-color: rgb(215, 204, 231); */
+    font-style:italic;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:767px) {
+    /* For tablets: */
+    .left{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .left ul {
+        float: left;
+    }
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right,.aside  {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .left {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+    .main, .right,.aside {
+      width: 100%;
+    }
+    form {
+        width: 100%;
+        margin: auto;
+    }
+    button {
+        margin-left: 80px;
+    }
+    .image-ceo {
+        display:block;
+        width: 300px;
+        height: 300px;
+    }
+  }
